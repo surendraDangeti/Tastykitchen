@@ -1,0 +1,33 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.not-found-img {
+  max-width: 400px;
+}
+
+.page-not-found-heading {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.page-description {
+  width: 30vw;
+  text-align: center;
+  font-family: sans-serif;
+  color: #454545;
+  font-weight: 500;
+  font-size: 24ox;
+}
+
+.Home-page-btn {
+  padding: 15px;
+  color: white;
+  background-color: orange;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

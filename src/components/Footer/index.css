@@ -1,0 +1,48 @@
+.footer {
+  background-color: black;
+  padding: 25px;
+}
+
+.Footer-SubContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerHeading {
+  color: white;
+}
+
+.footer-subHeading {
+  color: white;
+}
+
+.logo-kitchen {
+  height: 75px;
+  padding: 10px;
+  width: 75px;
+  margin: 5px;
+  margin-top: -10px;
+}
+
+.logo {
+  height: 45px;
+  padding: 5px;
+  width: 45px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .footerHeading {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: -10px;
+  }
+  .footer {
+    padding: 15px;
+    padding-bottom: 80px;
+  }
+  .footer-subHeading {
+    font-size: 14px;
+  }
+}

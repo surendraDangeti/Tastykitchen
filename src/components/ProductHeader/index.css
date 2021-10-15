@@ -1,0 +1,123 @@
+.FoodItemHeader {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.FoodItemHeaderSubContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  border-bottom: 1px solid rgba(168, 165, 165, 0.856);
+  margin-bottom: 15px;
+}
+
+.description {
+  font-weight: 400;
+  color: #7e858e;
+}
+
+@media screen and (min-width: 768px) {
+  .FoodItemHeader {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .description {
+    font-size: 12px;
+  }
+}
+
+.products-list-heading {
+  font-family: Verdana (sans-serif) !important;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-list-heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .products-list-heading {
+    font-size: 14px;
+  }
+}
+
+.sort-by-container {
+  display: flex;
+  align-items: center;
+}
+
+.sort-by-icon {
+  font-size: 24px;
+  color: #475569;
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 370px) {
+  .sort-by-icon {
+    font-size: 14px;
+  }
+}
+
+.sort-by {
+  color: #475569;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.sort-by-select {
+  color: #475569;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 370px) {
+  .sort-by {
+    font-size: 14px;
+  }
+  .sort-by-select {
+    font-size: 14px;
+  }
+}
+
+.select-option {
+  color: #7e858e;
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+  .FoodItemHeaderSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .products-list-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .FoodItemHeaderSubContainer {
+    font-size: 14px;
+  }
+  .products-list-heading {
+    font-size: 14px;
+  }
+}
